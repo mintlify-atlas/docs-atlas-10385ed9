@@ -1,0 +1,106 @@
+{
+  "projectType": "saas",
+  "projectName": "WZRD.STUDIO",
+  "projectDescription": "A visual storyboarding and creative asset pipeline builder for generating production-grade short form content, creative assets, and video content at scale.",
+  "theme": "willow",
+  "primaryColor": "#9b87f5",
+  "lightColor": "#D6BCFA",
+  "darkColor": "#7E69AB",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/visual-canvas",
+              "features/storyboarding",
+              "features/compute-flow",
+              "features/ai-generation",
+              "features/asset-library"
+            ]
+          },
+          {
+            "group": "Workflows",
+            "pages": [
+              "workflows/creating-projects",
+              "workflows/building-storyboards",
+              "workflows/connecting-blocks",
+              "workflows/generating-content",
+              "workflows/exporting"
+            ]
+          },
+          {
+            "group": "Integration",
+            "pages": [
+              "integration/supabase",
+              "integration/thirdweb",
+              "integration/fal-ai",
+              "integration/authentication"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Services",
+            "pages": [
+              "api/generation-service",
+              "api/asset-service",
+              "api/canvas-service",
+              "api/export-service"
+            ]
+          },
+          {
+            "group": "Stores",
+            "pages": [
+              "api/compute-flow-store",
+              "api/app-store",
+              "api/history-store"
+            ]
+          },
+          {
+            "group": "Types",
+            "pages": [
+              "api/compute-flow-types",
+              "api/storyboard-types",
+              "api/asset-types"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Visual canvas for building creative workflows with drag-and-drop blocks",
+    "AI-powered content generation using multiple models (Fal.ai, Gemini)",
+    "Storyboard creation with scene and shot management",
+    "Compute flow engine for connecting and executing generation pipelines",
+    "Asset library with upload, generation, and management capabilities",
+    "Real-time collaboration with Supabase",
+    "Web3 integration with Thirdweb and ApeCoin",
+    "Video editor integration for post-production"
+  ],
+  "publicApiSurface": [
+    "StudioCanvas - Visual workflow builder",
+    "StoryboardPage - Storyboard and scene management",
+    "useComputeFlowStore - State management for compute graphs",
+    "generationService.generateImage() - AI image generation",
+    "generationService.generateVideo() - AI video generation",
+    "assetService.uploadAsset() - Asset upload and storage",
+    "exportService.exportStoryboard() - Export workflows",
+    "canvasService.saveCanvas() - Save canvas state",
+    "supabaseService - Database operations for projects, scenes, shots"
+  ]
+}
